@@ -1,6 +1,4 @@
 
-"""Iterator and generator exercises"""
-
 class CountUpTo:
     """Simple iterator that counts from 1 to max"""
     def __init__(self, max_value):
@@ -32,10 +30,3 @@ def fibonacci(n):
         yield a
         a, b = b, a + b
 
-
-if __name__ == "__main__":
-    counter = CountUpTo(5)
-    print(list(counter))
-
-    print(list(even_numbers(10)))
-    print(list(fibonacci(10)))

@@ -21,13 +21,3 @@ def merge_json(a, b):
     return json.dumps(merged)
 
 
-if __name__ == "__main__":
-    user_json = create_user("Ann", 20)
-    print("Created:", user_json)
-
-    parsed = parse_user(user_json)
-    print("Parsed:", parsed)
-
-    j1 = json.dumps({"a": 1, "b": 2})
-    j2 = json.dumps({"b": None, "c": 3})
-    print("Merged:", merge_json(j1, j2))

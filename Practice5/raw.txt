@@ -1,0 +1,6 @@
+Milk 2.50
+Bread 1.20
+Eggs 3.10
+Date: 07/03/2026
+Time: 13:45
+Payment: Cash
